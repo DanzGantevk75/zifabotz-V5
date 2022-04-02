@@ -9,19 +9,19 @@ const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
 ╭═══════════════════════⬣
-║╭──❉ 〔⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪〕 ❉──────
+║╭──❉ 〔DanzBot〕 ❉──────
 ║│➸Hai, %name!
 ║│➸Tersisa *%limit Limit*
 ║│➸Role *%role*
 ║│➸Level *%level (%exp / %maxexp)*
 ║│➸[%xp4levelup]
 ║│➸%totalexp XP secara Total
-║╭──❉ 〔⳹ ❋ཻུ۪۪⸙TANGGAL⳹ ❋ཻུ۪۪〕 ❉──────
+║╭──❉ 〔TANGGAL〕 ❉──────
 ║│➸Hari: *%week %weton*
 ║│➸Tanggal: *%date*
 ║│➸WaktuIslam:*%dateIslamic*
 ║│➸Waktu: *%time*
-║╭──❉ 〔⳹ ❋ཻུ۪۪⸙TIME⳹ ❋ཻུ۪۪〕 ❉──────
+║╭──❉ 〔TIME〕 ❉──────
 ║│➸Uptime: *%uptime (%muptime)*
 ║│➸Database: %rtotalreg dari %totalreg
 ║│➸Memory Used : 
@@ -32,7 +32,7 @@ const defaultMenu = {
   body: '║│➸%cmd %islimit %isPremium',
   footer: '*╰───❉*\n',
   after: `
-  ⬣━〔Powered By Rozi〕━⬣
+  ⬣━〔Powered By Danz〕━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -225,7 +225,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ║╭──❉ 〔 ⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸⏰Aktif selama ${uptime}
 ║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-║│➸ Nama bot: *zifabotz*
+║│➸ Nama bot: *DanzBot*
 ║│➸ *${conn.blocklist.length}* Terblock
 ║│➸ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ║│➸ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
@@ -550,16 +550,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "udah malam tidur gih •>•"
   if (time >= 4) {
-    res = "Selamat pagi hari •>•"
+    res = "Selamat pagi hari 🤪"
   }
   if (time > 10) {
-    res = "Selamat siang hari •>•"
+    res = "Selamat siang hari 😅"
   }
   if (time >= 15) {
-    res = "Selamat sore hari •>•"
+    res = "Selamat sore hari 🧐"
   }
   if (time >= 18) {
-    res = "Selamat malam hari •>•"
+    res = "Selamat malam hari 🥵"
   }
   return res
 }
