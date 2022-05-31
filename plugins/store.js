@@ -9,19 +9,19 @@ const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
 ╭═══════════════════════⬣
-║╭──❉ 〔⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪〕 ❉──────
+║╭──❉ 〔 DanzBot 〕 ❉──────
 ║│➸Hai, %name!
 ║│➸Tersisa *%limit Limit*
 ║│➸Role *%role*
 ║│➸Level *%level (%exp / %maxexp)*
 ║│➸[%xp4levelup]
 ║│➸%totalexp XP secara Total
-║╭──❉ 〔⳹ ❋ཻུ۪۪⸙TANGGAL⳹ ❋ཻུ۪۪〕 ❉──────
+║╭──❉ 〔 Tanggal 〕 ❉──────
 ║│➸Hari: *%week %weton*
 ║│➸Tanggal: *%date*
 ║│➸WaktuIslam:*%dateIslamic*
 ║│➸Waktu: *%time*
-║╭──❉ 〔⳹ ❋ཻུ۪۪⸙TIME⳹ ❋ཻུ۪۪〕 ❉──────
+║╭──❉ 〔 Waktu 〕 ❉──────
 ║│➸Uptime: *%uptime (%muptime)*
 ║│➸Database: %rtotalreg dari %totalreg
 ║│➸Memory Used : 
@@ -32,7 +32,7 @@ const defaultMenu = {
   body: '║│➸%cmd %islimit %isPremium',
   footer: '*╰───❉*\n',
   after: `
-  ⬣━〔Powered By Rozi〕━⬣
+  ⬣━〔Powered By Danzz〕━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -222,7 +222,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `╭═══════════════════════
-║╭──❉ 〔 ⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪ 〕 ❉────── 
+║╭──❉ 〔 DanzBot 〕 ❉────── 
 ║│➸⏰Aktif selama ${uptime}
 ║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ║│➸zifabotz
@@ -231,11 +231,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ║│➸*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ╰─────────❉
 _____••••••••• 
-(_𝙱𝚎𝚋𝚎𝚛𝚊𝚙𝚊 𝚋𝚞𝚝𝚝𝚘𝚗 𝚊𝚍𝚊 𝚢𝚐 𝚐𝚊𝚔 𝚋𝚎𝚛𝚏𝚞𝚗𝚐𝚜𝚒_)
+(_Minimal Chat Owner Dek😈_)
 
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
-                        "footerText": "⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪⸙ by.rozi",
-                        "buttonText": "««TAMPILAN MENU««",
+                        "footerText": "DanzBot",
+                        "buttonText": "Tekan Menu😈",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
@@ -245,7 +245,7 @@ _____•••••••••
                                     "rowId": ".donasi"
                                 }, {
                                     "title":      "|🖼️| ❯╾Profile╼-",
-                                    "description": "indentitas kamu di zifabotz.",
+                                    "description": "indentitas kamu di danzbot.",
                                     "rowId": ".profile"
                                 }, {
                                     "title": "|💵|  ❯╾Sewa bot╼-",
@@ -378,15 +378,15 @@ _____•••••••••
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "|👩‍💻| Owner ZIFABOTZ",
-                                    "description": "pemilik ZIFABOTZ",
+                                    "title": "|👩‍💻| Owner Danzz.",
+                                    "description": "pemilik danzbot",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "|🛠|Status bot",
                                     "description": "Status dan informasi bot",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "|🖨️| Rules zifabotz",
+                                    "title": "|🖨️| Rules DanzBot",
                                     "description": "Mari menaati peraturan demi Kita bersama",
                                     "rowId": ".rules"
                                 }, {
@@ -517,18 +517,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "udah malam tidur gih •>•"
+  res = "udah malam tidur gih"
   if (time >= 4) {
-    res = "Selamat pagi hari •>•"
+    res = "Selamat pagi hari"
   }
   if (time > 10) {
-    res = "Selamat siang hari •>•"
+    res = "Selamat siang hari"
   }
   if (time >= 15) {
-    res = "Selamat sore hari •>•"
+    res = "Selamat sore hari"
   }
   if (time >= 18) {
-    res = "Selamat malam hari •>•"
+    res = "Selamat malam hari"
   }
   return res
 }
