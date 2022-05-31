@@ -222,7 +222,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `╭═══════════════════════
-║╭──❉ 〔 ⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪ 〕 ❉────── 
+║╭──❉ 〔 ⳹ ❋ཻུ۪۪zifabotzཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻཻུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུུ۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪۪ 〕 ❉────── 
 ║│➸⏰Aktif selama ${uptime}
 ║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ║│➸ Nama bot: *DanzBot*
@@ -231,10 +231,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ║│➸ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ╰─────────❉
 _____••••••••• 
-⬣━〔Powered By Rozi〕━⬣
+⬣━〔Powered By Danzz.〕━⬣
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
-                        "footerText": "*group offc bot https://bit.ly/3IKkoym*",
-                        "buttonText": "««TAMPILAN MENU««",
+                        "footerText": "*group offc bot https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK*",
+                        "buttonText": "Tekan Menu😈",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
@@ -244,7 +244,7 @@ _____•••••••••
                                     "rowId": ".donasi"
                                 }, {
                                     "title":      "|🖼️| ❯╾Daftar╼-",
-                                    "description": "Daftar diri anda di zifabotz",
+                                    "description": "Daftar diri anda di DanzBot",
                                     "rowId": ".daftar"
                                 }, {
  "title":      "|🎲| ❯╾Setelan grub╼-",
@@ -252,15 +252,15 @@ _____•••••••••
                                     "rowId": ".setelangrub"
                                 }, {
 "title":      "|🛒| ❯╾Store Menu╼-",
-                                    "description": "store di zifabotz",
+                                    "description": "store di DanzBot",
                                     "rowId": ".iklan"
                                 }, {
   "title":  "|👩‍💻| ❯╾jadibot╼-",
-                                    "description": "bergabung bersama bot zifa",
+                                    "description": "bergabung bersama DanzBot",
                                     "rowId": ".jadibot"
                                 }, {
   "title":  "|🙇‍♂️| ❯╾group╼-",
-                                    "description": "bergabung di grub bersama bot zifa",
+                                    "description": "bergabung di grub bersama DanzBot",
                                     "rowId": ".gcbot"
                                 }, {
   "title":  "|📒| ❯╾biodata owner╼-",
@@ -409,15 +409,15 @@ _____•••••••••
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "|👩‍💻| Owner ZIFABOTZ",
-                                    "description": "pemilik ZIFABOTZ",
+                                    "title": "|👩‍💻| Owner Danzz",
+                                    "description": "pemilik DanzBot",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "|🛠|Status bot",
                                     "description": "Status dan informasi bot",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "|🖨️| Rules zifabotz",
+                                    "title": "|🖨️| Rules DanzBot",
                                     "description": "Mari menaati peraturan demi Kita bersama",
                                     "rowId": ".rules"
                                 }, {
@@ -550,16 +550,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "udah malam tidur gih •>•"
   if (time >= 4) {
-    res = "Selamat pagi hari 🤪"
+    res = "Selamat pagi hari"
   }
   if (time > 10) {
-    res = "Selamat siang hari 😅"
+    res = "Selamat siang hari"
   }
   if (time >= 15) {
-    res = "Selamat sore hari 🧐"
+    res = "Selamat sore hari"
   }
   if (time >= 18) {
-    res = "Selamat malam hari 🥵"
+    res = "Selamat malam hari"
   }
   return res
 }
