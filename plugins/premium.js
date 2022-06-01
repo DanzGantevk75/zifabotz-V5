@@ -26,7 +26,7 @@ let info = `
 
 ◪ *Jika Minat Hubungi owner kami*
 ◪ *Atau Masuk Group Official Bot*
-_https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv_
+_https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK
 
 ▌│█║▌║▌║║▌║▌║█│▌
 ▌│█║▌║▌║║▌║▌║█│▌
