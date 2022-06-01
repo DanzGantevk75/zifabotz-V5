@@ -2,13 +2,13 @@ let handler  = async (m, { conn, usedPrefix }) => {
 conn.reply(m.chat, `
 ╭═══════════════════════
 ║╭──❉ 〔 INFO OWNER 〕 ❉────── 
-║│➸ ```NAMA``` : ROZI
-║│➸ ```UMUR``` : 15thn
-║│➸ ```ASAL``` : PONTIANAK
+║│➸ ```NAMA``` : Danzz
+║│➸ ```UMUR``` : Privasi
+║│➸ ```ASAL``` : Pekanbaru
 ║│➸ ```OFFICIAL GRUP``` :
-https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv
-║│➸ ```ISTAGRAM``` : http://instagram.com/zalfapontianak
-║│➸ ```WHATSAPP``` : http://wa.me/6285828764046
+https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK
+║│➸ ```ISTAGRAM``` : Di Private😎
+║│➸ ```WHATSAPP``` : http://wa.me/6288270863279
 ╰────────❉
 `.trim(), m)
 }
