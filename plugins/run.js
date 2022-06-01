@@ -12,8 +12,8 @@ let handler = async(m, { conn }) => {
         description: kontol,
         sections:  [{title: "STORE MURSID", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
-        {title: 'nomor mursid', description: "kalau mau run silahkan cht mursid", rowId:".ownermursid"},
-        {title: 'RULES', description: "rules zifabotz", rowId:".rules"},
+        {title: 'nomor mursid', description: "kalau mau run silahkan cht danzz", rowId:".ownermursid"},
+        {title: 'RULES', description: "rules danzbot", rowId:".rules"},
        ] }],
         listType: 1
        }
